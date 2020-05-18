@@ -326,12 +326,15 @@ h2{
 }
 .call_right .btn{
     background-color: #007bff;
+    color: white;
     padding: 17px 26px;
     border-radius: 7px;
     font-weight: 600px;
+    font-size: 17px;
 }
 
 /*----------TESTIMONIAL----------*/
+
 #testimonial{
     padding-bottom: 20px;
 }
@@ -436,7 +439,6 @@ h2{
 } 
 #client .icon_top{
     display: flex;
-    border: solid 1px #;
 }
 #client .icon_bottom{
     display: flex;
@@ -512,9 +514,124 @@ h2{
     padding: 10px;
     border-radius: 8px;
 }
+
+/*----------FREQUENTLY_ASKED_QUESTION----------*/
+
 .fqa_bottom{
     line-height: 30px;
     font-size: 20px;
     padding: 20px 50px;
 }
+#fqa{
+    padding: 30px;
+}
 
+/*----------CONTACT_US----------*/
+
+#contact{
+    background-color: #f7f8f9;
+    padding: 20px 10px;
+}
+.contact_bottom{
+    display: flex;
+    margin: 10px;
+}
+#contact .contact_bottom_left{
+    flex-basis: 30%;
+    background-color: white;
+    margin: 10px -22px 0px 21px;
+    padding: 20px 27px;
+    box-shadow: 0px 0px 50px 10px #ccccccb5;
+}
+#contact .contact_bottom_right{
+    flex-basis: 70%;
+    background-color: white;
+    margin: 10px 10px 10px 70px;
+    padding: 20px;
+    box-shadow: 0px 0px 50px 10px #ccccccb5;
+}
+#contact .contact_bottom_left h3{
+    padding: 16px 0 0 3px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #364146;
+}
+#contact .contact_bottom_left h4{
+    padding: 0 0 9px 3px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #627680;
+}
+form{
+    line-height: 20px;
+}
+input{
+    height: 30px;
+    width: 90%;
+}
+label{
+    line-height: 40px;
+}
+input{
+    line-height: 20px;
+}
+textarea{
+    line-height: 20px;
+}
+#contact .contact_bottom_right .btn{
+    border: solid 1px #009cea;
+    color: white;
+    background-color: #009cea;
+    padding: 12px;
+    margin: 12px 250px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+/*----------FOOTER----------*/
+
+#footer h3{
+    color:  #364146;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+#footer h4{
+    font-size: 17px;
+    font-weight: 600;
+    color: #364146;
+    padding-bottom: 30px;
+}
+.footer_body{
+    display: flex;
+    padding: 30px;
+}
+
+.footer_under{
+    text-align: center;
+    font-size: 13px;
+    color: #364146;
+    background-color: #f7f8f9;
+    padding: 40px;
+}
+.r2 ,.r3{
+    flex-basis: 20%;
+    line-height: 40px;
+}
+.r1 ,.r4{
+    flex-basis: 30%;
+    line-height: 30px;
+}
+.r4 .btn{
+    border-radius: 7px;
+    background-color: #009cea;
+    color: white;
+    padding: 7px;
+    margin: 10px 30px 0px 0px;
+    text-align: center;
+}
+.footer_under h3{
+    font-size: 14px;
+    line-height: 22px;
+}
